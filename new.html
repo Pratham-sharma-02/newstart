@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        my page
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script	src="node_modules/jquery/dist/jquery.min.js"></script>				
+    <script	src="node_modules/tether/dist/js/tether.min.js"></script>				
+    <script	src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <!--navigation-->
+    <nav class="navbar navbar-expand-sm bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand mr-auto" href="#"> <img src="more.jpg" height="40" width="41"> </a>
+            <button  class="navbar-toggler" data-toggle='collapse' data-target='#show'>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="show">
+            <ul class="navbar-nav mr-2">
+                <li class="navbar-item active"><a class="navbar-link" href="#" style="text-decoration: none;"> Home</a>  </li>
+                <li class="navbar-item"><a class="navbar-link" href="#about" style="text-decoration: none;"> About</a>  </li>
+                <li class="navbar-item"><a class="navbar-link" href="#team" style="text-decoration: none;"> Team </a>  </li>
+                <li class="navbar-item"><a class="navbar-link" href="#pricing" style="text-decoration: none;">Pricing</a>  </li>
+                <li class="navbar-item"><a class="navbar-link" href="#contact" style="text-decoration: none;">Contact</a>  </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div  id="mycarousel" class="carousel slide" data-ride='carousel'>
+        <div class="carousel-inner">
+            <div class="carousel-item d-block w-100 mt-0" >
+                <img src="image1.jpg" height="100%" width="100%">
+            </div>
+            <div class="carousel-caption">
+                <h3>Start something that matters</h3><br>
+                <h4 class="label">Create your own projects</h4><br>
+                <button type="button" class="btn btn-dark text-white">Learn Today</button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="jumbotron mb-0" id="about">
+        <h2>About the company</h2><br>
+        <h2>Key features</h2><br>
+        <div class="row row-align-center">
+            <div class="col-md-3">
+                <i class="fa fa-desktop"></i><br>
+                <h2>Responsive</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-heart"></i><br>
+                <h2 class="label">Passion</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-diamond"></i><br>
+                <h2>Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa fa-cog"></i><br>
+                <h2>Support</h2>
+                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-dark mb-0">
+        <div class="row row-align-center">
+            <div class="col-md-4">
+                <h1>We know Design</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <button type="button" class="btn btn-secondary text-white">View our works</button>
+            </div>
+            <div class="col-md-8 col-sm-6">
+                <img src="pic.jpg" id="picture" alt='picture thi yaha pe'>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-secondary mb-0" id="team">
+        <h4 id="h">The Team</h4>
+        <div class="row row-align center" id="hello">
+            <div class="col-md-3 col-sm-3">
+                <div class="card ">
+                    <img class="card-img-top" src="photo1.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Pratham</h4>
+                        <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <a class="btn btn-primary" href="#">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="card ">
+                    <img class="card-img-top" src="photo2.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Other name</h4>
+                        <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <a class="btn btn-primary" href="#">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="card ">
+                    <img class="card-img-top" src="photo3.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Other name</h4>
+                        <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <a class="btn btn-primary" href="#">Know more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="card ">
+                    <img class="card-img-top" src="photo4.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title">Other name</h4>
+                        <p class="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <a class="btn btn-primary" href="#">Know more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron mb-0 d-none d-sm-block" id="hello2">
+        <div class="row ">
+            <div class="col-md-3 col-sm-4">
+                <h4 class="temp">14+</h4>
+                <p class="temp">Partners</p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <h4 class="temp">55+</h4>
+                <p class="temp">Projects done</p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <h4 class="temp">60+</h4>
+                <p class="temp">Happy clients</p>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <h4 class="temp">150+</h4>
+                <p class="temp">Meetings</p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron mb-0 " id="hello3">
+        <h4 id="h2">My Work</h4>
+        <div class="row row-content" id="row1">
+            <div class="col-sm-2 col-md-3 mb-0">
+                <img src="photo1.jpg"  class="img-work">
+            </div>
+            <div class="col-sm-2 col-md-3">
+                <img src="photo2.jpg"  class="img-work">
+            </div>
+            <div class="col-sm-2 col-md-3">
+                <img src="photo3.jpg"  class="img-work">
+            </div>
+            <div class="col-sm-2 col-md-3">
+                <img src="photo4.jpg"  class="img-work">
+            </div>
+        </div>
+        <div class="row row-content" id="row2">
+            <div class="col-sm-2 col-md-3">
+                <img src="photo1.jpg"  class="img-work">
+            </div>
+            <div class="col-sm-2 col-md-3">
+                <img src="photo2.jpg"  class="img-work">
+            </div>
+            <div class="col-sm-2 col-md-3">
+                <img src="photo3.jpg"  class="img-work">
+            </div>
+            <div class="col-sm-2 col-md-3">
+                <img src="photo4.jpg"  class="img-work">
+            </div>
+        </div>
+        <button class="btn btn-success" id="btn4">More</button>
+     </div>
+     <div class="jumbotron bg-seccondary mb-0" id="pricing">
+         <h4 id="two">Subscription</h4>
+         <div class="row row-content">
+             <div class="col-md-4 col-sm-4">
+                 <div class="card" id="card4">
+                     <div class="card-header" style="background-color: rgb(155, 153, 153);">
+                         <h4>Basic</h4>
+                     </div>
+                     <div class="card-body" id="inp">
+                        <h4>10Gb</h4><hr>
+                        <h4>content</h4><hr>
+                        <h4>content</h4><hr>
+                        <h4>content</h4><hr>
+                        <h4>content</h4><hr>
+                        <button type="button" class="btn btn-secondary" id="btn8">Sign-in</button>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-md-4 col-sm-4">
+                <div class="card" id="card3">
+                    <div class="card-header text-white" style="background-color: rgb(255, 40, 40);">
+                        <h4>Pro</h4>
+                    </div>
+                    <div class="card-body" id="inp1">
+                       <h4>10Gb</h4><hr>
+                       <h4>content</h4><hr>
+                       <h4>content</h4><hr>
+                       <h4>content</h4><hr>
+                       <h4>content</h4><hr>
+                       <button type="button" class="btn btn-secondary" id="btn5">Sign-in</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="card" id="card2">
+                    <div class="card-header" style="background-color: rgb(189, 189, 189);">
+                        <h4>Premium</h4>
+                    </div>
+                    <div class="card-body" id="inp2">
+                       <h4>10Gb</h4><hr>
+                       <h4>content</h4><hr>
+                       <h4>content</h4><hr>
+                       <h4>content</h4><hr>
+                       <h4>content</h4><hr>
+                       <button type="button" class="btn btn-secondary" id="btn3">Sign-in</button>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+     <div class="footer" id="contact">
+         <div class="jumbotron mb-0">
+             <div class="row row-content">
+                 <div class="col-md-4">
+                     <h2 class="test"><i class="fa fa-user"></i>Contact: 705180XXX</h2>
+                     <h2 class="test"><i class="fa fa-envelope"></i>E-mail: ABC@Xxyz.com</h2>
+                 </div>
+                <div class="row row-content">
+                    <div class="col-md-12 col-sm-12">
+                        <ul class="list-items">
+                        <li class="social-icons"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-icons"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="social-icons"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li class="social-icons"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li class="social-icons"><a href="#"><i class="fa fa-telegram"></i></a></li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </div>
+         </div>
+     </div>
+
+
+</body>

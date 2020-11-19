@@ -1,0 +1,242 @@
+.carousel-item{
+    height: 410px;
+    
+}
+.carousel-item img{
+    position: absolute;
+    min-width: 300px;
+    filter: brightness(60%);
+}
+.carousel-caption{
+    position: relative !important;
+    top: 120px;
+    left: 4% !important;
+    z-index:1;
+    max-height:177px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-caption>h3{
+    top: 30px;
+    left: 20%;
+    font-size: 50px;
+    color: #ffffff;
+}
+h4{
+    font-size: 30px;
+    color: black;
+}
+.navbar-item{
+    margin-left: 40px;
+
+}
+.navbar-link,.navbar-link:visited{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    opacity: 0.6;
+  
+}
+.navbar-link:hover{
+    background-color: grey;
+    
+
+
+ 
+}
+.active{
+    opacity: 1;
+    background-color: grey;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    display: block;
+}
+
+.h2{
+    margin:0 auto;
+}
+.fa{
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 50px;
+}
+#picture{
+    position: relative;
+    width:40%;
+    height:100%;
+    border-radius: 5px;
+    margin:10px 0px 0px 0px;
+}
+.card{
+    width: 400px;
+    border: 2px solid black;
+    font-family:sans-serif;
+    box-shadow: black;
+    filter: drop-shadow(30%);
+}
+.card-img-top{
+    height: 240px;
+}
+.card-body{
+    text-align: left;
+    background-color: rgb(53, 52, 52);
+}
+.bg-dark{
+    background-color: rgb(29, 28, 28);
+}
+#hello{
+    margin-top: 40px;
+}
+#h{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hello2{
+    background-color: rgb(126, 123, 123);
+    height: 40px;
+    align-items: center;
+}
+.temp{
+    font-size: 20px;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+.img-work{
+    width: 100%;
+    height: 60%;
+    border-radius: 4px;
+}
+#row1 , #row2{
+    margin: 60px;
+}
+#row1{
+    height: 260px;
+}
+#btn4{
+    width: 20%;
+    margin-top: -80px;
+}
+.img-work:hover{
+    opacity: 0.6;
+    
+}
+#h2{
+    color: #ffffff;
+}
+#pricing{
+    background-color: rgb(48, 48, 48);
+    
+}
+#card2,#card3,#card4{
+    margin-left:60px;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: black;
+
+}
+#inp,#inp1,#inp2{ 
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+    font-family:cursive;
+
+}
+#card4:hover{
+    opacity: 1;
+
+}
+#card3:hover{
+    opacity: 1;
+
+}
+#card2:hover{
+    opacity: 1;
+
+}
+hr{
+    border-top: 1px solid black;
+    width:100%;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+#btn3,#btn8,#btn5{
+    width: 30%;
+}
+.test{
+    font-size: 30px;
+    height: 60px;
+    font-family: cursive;
+
+}
+#two{
+    margin: 60px;
+    font-family: cursive;
+    color: white;
+}
+.social-icons{
+    text-decoration: none;
+    display: inline-block;
+    font-size:30px;
+    margin-top: 360px;
+    width: 2.1em;
+    height: 2.1em;
+    border-radius: 50%;
+    color: black;
+
+
+}
+.social-icons:hover{
+    transform: translateY(-4px);
+    transition:0.3s;
+}
+
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-telegram{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #517fa4;
+}
+
+@media(max-width:767px){
+    .carousel-caption{
+        font-size: 10px;
+    }
+    .card{
+        width:320px;
+        height: 510px;
+        margin-top:30px;
+    }
+    #card4,#card3,#card2{
+        width:320px;
+        height: 460px;
+        margin-top:30px;
+        left: -15%;
+
+    }
+    .test{
+        font-size: 20px;
+    }
+    .social-icons{
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 80px;
+        width: 75px;
+        height: 15px;
+        margin-left: -25px;
+
+    }
+}
